@@ -78,13 +78,13 @@ node --version  # Doit afficher v18.0.0 ou supérieur
 
 ```bash
 # Avec npm
-npm create lmc-starterkit@1.0.0
+npm install
 
 # Avec pnpm (plus rapide)
-pnpm create lmc-starterkit@1.0.0
+pnpm install
 
 # Avec yarn
-yarn create lmc-starterkit@1.0.0
+yarn install
 
 ---
 
@@ -93,7 +93,9 @@ yarn create lmc-starterkit@1.0.0
 ### **Étape 1 : Lancer le script**
 
 ```bash
-npm create lmc-starterkit
+npm install
+
+npm run config
 ```
 
 ### **Étape 2 : Répondre aux questions**
