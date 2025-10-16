@@ -1,0 +1,25 @@
+{
+  "name": "lmc-starterkit",
+  "version": "1.0.0",
+  "description": "Starterkit Astro optimisé 2025",
+  "type": "module",
+  "main": "config.mjs",
+  "scripts": {
+    "config": "node config.mjs",
+    "setup": "node config.mjs",
+    "start": "node config.mjs"
+  },
+  "keywords": [
+    "astro",
+    "starterkit",
+    "La minute de code"
+  ],
+  "author": "Sweetosky",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
